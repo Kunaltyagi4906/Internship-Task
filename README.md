@@ -10,10 +10,6 @@ A simple Python-based calculator app that runs in the terminal.
 - Division
 - Loops until user exits
 
-## Run it
-```bash
-python calculator.py
-
 
 ## Task 2: CLI To-Do List Application (Python)
 
@@ -47,3 +43,7 @@ It allows users to **add**, **view**, and **remove** tasks — and it **saves th
 
 ## 📂 Folder Structure
 
+## Run it
+```bash
+python calculator.py
+python Tod.py
