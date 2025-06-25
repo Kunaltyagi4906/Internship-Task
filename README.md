@@ -11,27 +11,27 @@ A simple Python-based calculator app that runs in the terminal.
 - Loops until user exits
 
 
-## Task 2: CLI To-Do List Application (Python)
+# Task 2: CLI To-Do List Application (Python)
 
 This is a simple **console-based To-Do List manager** built using Python.  
 It allows users to **add**, **view**, and **remove** tasks — and it **saves them persistently** using a local text file (`tasks.txt`) stored inside the project folder.
 
 ---
 
-## Objective
+# Objective
 
 > Build a persistent, terminal-based task manager using Python lists and file I/O.
 
 ---
 
-## 🔧 Tools Used
+# 🔧 Tools Used
 
 - **Python 3.x**
 - **VS Code / Terminal**
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 - 📝 View current tasks
 - ➕ Add new tasks
