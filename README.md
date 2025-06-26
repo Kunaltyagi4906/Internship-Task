@@ -41,9 +41,27 @@ It allows users to **add**, **view**, and **remove** tasks — and it **saves th
 
 ---
 
-## 📂 Folder Structure
+# Task 3: Web Scraper for News Headlines
 
+- Scrapes headlines from a news site using `requests` and `BeautifulSoup`.
+- Stores the result in `headlines.txt`.
+
+> Files: `news_scraper.py`, `headlines.txt`,'requirements.txt'
+
+# ⚙️ Tools & Tech
+
+- 🐍 Python 3
+- 🌐 Requests (to fetch HTML)
+- 🍲 BeautifulSoup (for parsing HTML)
+- 📄 Plain `.txt` file (to save headlines)
+## 🧠 How It Works
+
+1. Sends a GET request to a news website.
+2. Parses the HTML content using BeautifulSoup.
+3. Extracts text from all `<h2>` or `<h3>` tags.
+4. Saves the headlines to a local text file `headlines.txt`.
 ## Run it
 ```bash
 python calculator.py
 python Tod.py
+python News_scrapper.py
