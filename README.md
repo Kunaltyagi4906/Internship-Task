@@ -60,8 +60,33 @@ It allows users to **add**, **view**, and **remove** tasks — and it **saves th
 2. Parses the HTML content using BeautifulSoup.
 3. Extracts text from all `<h2>` or `<h3>` tags.
 4. Saves the headlines to a local text file `headlines.txt`.
+
+# Task 4 – Flask REST API
+
+This project is part of my internship tasks. Task 4 focuses on building a simple REST API using **Flask** that supports basic CRUD (Create, Read, Update, Delete) operations for managing user data.
+
+---
+
+## 🚀 Features
+
+- ✅ Create a new user (POST `/users`)
+- ✅ Retrieve all users (GET `/users`)
+- ✅ Retrieve a single user by username (GET `/users/<Kunal>`)
+- ✅ Update an existing user (PUT `/users/<RAJ>`)
+- ✅ Delete a user (DELETE `/users/<Kunal>`)
+
+---
+
+# 🧠 Tools and Tech
+
+- 💻 Python 3
+- 🌐 Flask
+- 📮 Postman (for testing)
+
+
 ## Run it
 ```bash
 python calculator.py
 python Tod.py
 python News_scrapper.py
+python App.py
