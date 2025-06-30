@@ -83,6 +83,13 @@ This project is part of my internship tasks. Task 4 focuses on building a simple
 - 🌐 Flask
 - 📮 Postman (for testing)
 
+# Task 5: Sales Data Analysis
+
+- Analyzed a dummy sales dataset using Pandas and Matplotlib
+- Created visualizations (bar & pie charts) for products and regions
+- Colab notebook and CSV included
+- 📁 Folder: `task5/`
+- 📄 Files: `Task_5_Sales_Analysis.ipynb`, `sales.csv`
 
 ## Run it
 ```bash
