@@ -91,6 +91,24 @@ This project is part of my internship tasks. Task 4 focuses on building a simple
 - 📁 Folder: `task5/`
 - 📄 Files: `Task_5_Sales_Analysis.ipynb`, `sales.csv`
 
+# 🚀 Task 6: Flask Portfolio Website
+
+**Objective:**  
+Create a responsive personal portfolio website using Flask to showcase skills, projects, and contact information.
+
+**Key Features:**
+- Homepage with name, bio, projects, skills
+- Contact form (saves data to CSV)
+- Resume download
+- Font Awesome icons + dark UI
+- Deployed-ready (Render/HF)
+
+**Tech Stack:**  
+Flask, HTML, CSS, Python, Font Awesome, GitHub
+
+**Folder:** `Task6_Personal_Portfolio/`
+
+
 ## Run it
 ```bash
 python calculator.py

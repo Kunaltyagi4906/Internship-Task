@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me | Kunal Tyagi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> 
+                        <a href="mailto:kunaltyagi4906@gmail.com">kunaltyagi4906@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i> 
+                        <a href="tel:+916395905755">6395905755</a></p>
+
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/kunal-tyagi-9b37182b0/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/KunalTy85207321?t=sI52ktiNADJhyBz8OACqeQ&s=08"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://wa.me/qr/B5MSUMBHYSRRD1"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="mailto:kunaltyagi4906@gmail.com?subject=Inquiry&body=Hello Kunal, I would like to connect with you!">
+                            <i class="fa-solid fa-inbox"></i>
+                        </a>
+                    </div>
+
+
+
+                </div>
+
+                <div class="contact-right">
+                    <form method="POST" action="/contact">
+                             <input type="text" name="name" placeholder="Your Name" required>
+                             <input type="email" name="email" placeholder="Your Email" required>
+                             <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                             <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                         
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
