@@ -106,7 +106,18 @@ Create a responsive personal portfolio website using Flask to showcase skills, p
 **Tech Stack:**  
 Flask, HTML, CSS, Python, Font Awesome, GitHub
 
-**Folder:** `Task6_Personal_Portfolio/`
+# Task 7: Image Resizer Tool
+
+### 📌 Objective:
+Resize and convert images in batch using Python. This tool helps automate the process of image preprocessing by resizing all images in a given folder.
+
+---
+
+### 🧰 Tools & Libraries:
+- 🐍 Python
+- 🖼️ [Pillow (PIL)](https://pillow.readthedocs.io/en/stable/)
+
+---
 
 
 ## Run it
@@ -115,3 +126,4 @@ python calculator.py
 python Tod.py
 python News_scrapper.py
 python App.py
+python resizer.py
