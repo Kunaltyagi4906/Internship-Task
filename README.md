@@ -117,7 +117,38 @@ Resize and convert images in batch using Python. This tool helps automate the pr
 - 🐍 Python
 - 🖼️ [Pillow (PIL)](https://pillow.readthedocs.io/en/stable/)
 
+# Task 8: Build a Rule-Based Chatbot using if-else
+
+## 📝 Objective:
+To build a simple chatbot using basic Python logic with `if-elif-else` statements. The bot should be able to respond to user queries based on predefined rules.
+
 ---
+
+# 🛠️ Tools & Technologies:
+- Language: **Python**
+- Libraries Used: `datetime` (for time responses)
+
+---
+
+## 📁 Deliverables:
+- A Python script that:
+  - Takes user input
+  - Processes it using conditional statements
+  - Returns a predefined text-based response
+
+---
+
+## 💬 Chatbot Capabilities:
+| Feature         | Description                                               |
+|----------------|-----------------------------------------------------------|
+| 👋 Greetings     | Responds to "hello", "hi", "hey"                         |
+| 🕒 Time Check    | Returns current system time                              |
+| 🌦️ Weather      | Informs user about lack of real-time data access         |
+| 🍽️ Food Query    | Responds to "pav bhaji" with a fun fact                 |
+| 😊 Emotions      | Handles "sad", "happy" with support messages            |
+| 💤 Boredom       | Gives suggestions when user feels bored                 |
+| 😂 Joke Feature  | Tells a joke on demand                                   |
+| 👋 Exit          | Responds to "bye", "goodbye", "exit"                    |
 
 
 ## Run it
@@ -127,3 +158,4 @@ python Tod.py
 python News_scrapper.py
 python App.py
 python resizer.py
+python chatbot.py
