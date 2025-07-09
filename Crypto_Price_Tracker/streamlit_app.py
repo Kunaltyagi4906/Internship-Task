@@ -29,8 +29,9 @@ st.markdown(
 # -------------------- Email Sender --------------------
 def send_email(to_email, crypto, price):
     try:
-        from_email = "kunaltyagi4906@gmail.com"
-        app_password = "jgnciduexyklazvk"
+        from_email = st.secrets["email"]["address"]
+        app_password = st.secrets["email"]["app_password"]
+
 
         subject = f"{crypto.upper()} Price Alert 📈"
         body = f"Hey! {crypto.upper()} has hit ₹{price} at {datetime.now().strftime('%I:%M %p')}"
