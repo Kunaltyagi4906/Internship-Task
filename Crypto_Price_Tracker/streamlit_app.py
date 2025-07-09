@@ -29,8 +29,8 @@ st.markdown(
 # -------------------- Email Sender --------------------
 def send_email(to_email, crypto, price):
     try:
-        from_email = st.secrets["email"]["address"]
-        app_password = st.secrets["email"]["app_password"]
+        from_email = st.secrets["email"]["sender"]
+        app_password = st.secrets["email"]["password"]
 
 
         subject = f"{crypto.upper()} Price Alert 📈"
